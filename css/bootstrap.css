@@ -315,13 +315,15 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  #color: #428bca;
+  color: #000098;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  #color: #2a6496;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -432,6 +434,7 @@ h6,
   font-family: "Source Sans Pro", Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
+  color: #980000;
 }
 
 h1 small,
@@ -1788,16 +1791,20 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  #background-color: #428bca;
+  #border-color: #428bca;
+  background-color: #980000;
+  border-color: #980000;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #357ebd;
-  border-color: #3071a9;
+  #background-color: #357ebd;
+  #border-color: #3071a9;
+  background-color: #000098;
+  border-color: #000098;
 }
 
 .btn-primary.disabled,
@@ -2429,13 +2436,16 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .panel-primary {
-  border-color: #428bca;
+  #border-color: #428bca;
+  border-color: #000098;
 }
 
 .panel-primary .panel-heading {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  #background-color: #428bca;
+  #border-color: #428bca;
+  background-color: #000098;
+  border-color: #000098;
 }
 
 .panel-success {
@@ -2774,6 +2784,7 @@ button.close {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 20px;
+  #background-color: #eeeeee;
   background-color: #eeeeee;
   border-radius: 4px;
 }
@@ -4064,7 +4075,8 @@ a.thumbnail:focus {
 }
 
 .label-info {
-  background-color: #5bc0de;
+  #background-color: #5bc0de;
+  background-color: #980000;
 }
 
 .label-info[href]:hover,
