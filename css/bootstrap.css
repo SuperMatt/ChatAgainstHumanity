@@ -302,7 +302,8 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  #background-color: #ffffff;
+  background-color: #f0f0f0;
 }
 
 input,
@@ -316,7 +317,7 @@ textarea {
 
 a {
   #color: #428bca;
-  color: #000098;
+  color: #64A9D8;
   text-decoration: none;
 }
 
@@ -431,10 +432,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Source Sans Pro", Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
-  color: #980000;
+  color: #c71644;
 }
 
 h1 small,
@@ -1793,8 +1794,8 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   #background-color: #428bca;
   #border-color: #428bca;
-  background-color: #980000;
-  border-color: #980000;
+  background-color: #c71644;
+  border-color: #c71644;
 }
 
 .btn-primary:hover,
@@ -1803,8 +1804,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active {
   #background-color: #357ebd;
   #border-color: #3071a9;
-  background-color: #000098;
-  border-color: #000098;
+  background-color: #64A9D8;
+  border-color: #64A9D8;
 }
 
 .btn-primary.disabled,
@@ -2437,15 +2438,15 @@ a.list-group-item.active .list-group-item-text {
 
 .panel-primary {
   #border-color: #428bca;
-  border-color: #000098;
+  border-color: #64A9D8;
 }
 
 .panel-primary .panel-heading {
   color: #ffffff;
   #background-color: #428bca;
   #border-color: #428bca;
-  background-color: #000098;
-  border-color: #000098;
+  background-color: #64A9D8;
+  border-color: #64A9D8;
 }
 
 .panel-success {
@@ -4076,7 +4077,7 @@ a.thumbnail:focus {
 
 .label-info {
   #background-color: #5bc0de;
-  background-color: #980000;
+  background-color: #c71644;
 }
 
 .label-info[href]:hover,
