@@ -435,7 +435,8 @@ h6,
   font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
-  color: #c71644;
+  #color: #c71644;
+  color: #64A9D8
 }
 
 h1 small,
